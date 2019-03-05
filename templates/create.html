@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Up!</title>
+</head>
+<body>
+    <form action="" method="post">
+        <p>{{ newuser.csrf_token }}</p>
+        <p>{{ warning }}</p>
+        <P>{{ newuser.firstname.label}} {{newuser.firstname() }}</P>
+        <P>{{ newuser.lastname.label}} {{newuser.lastname() }}</P>
+        <P>{{ newuser.username.label}} {{newuser.username() }}</P>
+        <P>{{ newuser.email.label}} {{newuser.email() }}</P>
+        <P>{{ newuser.cell_number.label}} {{newuser.cell_number() }}</P>
+        <P>{{ newuser.address.label}} {{newuser.address() }}</P>
+        <P>{{ newuser.submit.label}} {{newuser.submit() }}</P>
+    </form>
+</body>
+</html>
