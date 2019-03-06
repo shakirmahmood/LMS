@@ -1,6 +1,6 @@
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
-
+from sqlalchemy.types import Enum
 app = Flask(__name__)
 app.secret_key = 'LMS'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data.sqlite'
@@ -18,7 +18,7 @@ class User(db.Model):
     email = db.Column(db.String(64), unique=True)
     cell_number = db.Column(db.Integer)
     address = db.Column(db.String(64))
-    Acquire = db.relationship('Acquire', backref='UserAcquire', lazy='dynamic')
+    # Acquire = db.relationship('Acquire', backref='UserAcquire', lazy='dynamic')
 
 
 class Book(db.Model):
@@ -29,14 +29,18 @@ class Book(db.Model):
     pages = db.Column(db.Integer)
     author = db.Column(db.String(64))
     publisher = db.Column(db.String(64))
-    Acquire = db.relationship('Acquire', backref='BookAcquire', lazy='dynamic')
+    # Acquire = db.relationship('Acquire', backref='BookAcquire', lazy='dynamic')
 
 
 class Acquire(db.Model):
     __tablename__ = 'acquire'
     id = db.Column(db.Integer, primary_key=True)
-    user = db.Column(db.String(64), db.ForeignKey('users.id'))
-    book = db.Column(db.String(64), db.ForeignKey('books.id'))
+    user = db.Column(db.String(64))
+    booktitle = db.Column(db.String(64))
+    bookyear = db.Column(db.Integer)
+    bookpages = db.Column(db.Integer)
+    bookauthor = db.Column(db.String(64))
+    bookpublisher = db.Column(db.String(64))
 
 
 # db.create_all()

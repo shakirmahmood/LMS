@@ -1,0 +1,122 @@
+users:
+
+[
+    {
+        "firstname": "Shakir",
+        "lastname": "Mughal",
+        "username": "shakirmughal",
+        "email": "shakir.mughal@emumba.com",
+        "cell_number": 10101010101,
+        "address": "Rawalpindi"
+    },
+    {
+        "firstname": "Shahid",
+        "lastname": "Jamil",
+        "username": "shahidjamil",
+        "email": "shahid.jamil@emumba.com",
+        "cell_number": 11111111111,
+        "address": "Sialkot"
+    },
+    {
+        "firstname": "Muhammad",
+        "lastname": "Osama",
+        "username": "mosama",
+        "email": "muhammad.osama@emumba.com",
+        "cell_number": 22222222222,
+        "address": "Sialkot"
+    },
+    {
+        "firstname": "Saad",
+        "lastname": "Sheikh",
+        "username": "saadsheikh123",
+        "email": "saadsheikh987@huawei.com",
+        "cell_number": 33333333333,
+        "address": "Rawalpindi"
+    },
+    {
+        "firstname": "Muhammad",
+        "lastname": "Hassan",
+        "username": "hassanjutt",
+        "email": "mhassan081@gmail.com",
+        "cell_number": 44444444444,
+        "address": "Patoki"
+    },
+    {
+        "firstname": "Usman",
+        "lastname": "Akram",
+        "username": "manadon",
+        "email": "sirsyed@gmail.com",
+        "cell_number": 55555555555,
+        "address": "Faisalabad"
+    },
+    {
+        "firstname": "Saad",
+        "lastname": "Baloch",
+        "username": "sbalochi",
+        "email": "saba164865@yahoo.com",
+        "cell_number": 66666666666,
+        "address": "Lahore"
+    },
+    {
+        "firstname": "Shahid",
+        "lastname": "Mahmood",
+        "username": "scchhahhiid",
+        "email": "apricot123@outlook.com",
+        "cell_number": 77777777777,
+        "address": "Rawalpindi"
+    },
+    {
+        "firstname": "Mutahir",
+        "lastname": "Sohail",
+        "username": "mutahirsohail",
+        "email": "mutahir.sohail@itehad.com",
+        "cell_number": 11111111111,
+        "address": "Lahore"
+    }
+]
+
+Books:
+[
+    {
+        "title": "Why Nations Fail",
+        "year": 1999,
+        "pages": 350,
+        "author": "Robinson",
+        "publisher": "Rana Printers"
+    },
+    {
+        "title": "Power",
+        "year": 1900,
+        "pages": 250,
+        "author": "James Colardo",
+        "publisher": "Sons and Sons"
+    },
+    {
+        "title": "Power",
+        "year": 1900,
+        "pages": 250,
+        "author": "James Colardo",
+        "publisher": "Sons and Sons"
+    },
+    {
+        "title": "Alchemist",
+        "year": 1950,
+        "pages": 150,
+        "author": "Paulo Caulo",
+        "publisher": "Mughal Steel"
+    },
+    {
+        "title": null,
+        "year": 1800,
+        "pages": 5132,
+        "author": "Shakir",
+        "publisher": "Examplary Printers"
+    },
+    {
+        "title": "Long Drive",
+        "year": 1800,
+        "pages": 5132,
+        "author": "Shakir",
+        "publisher": "Examplary Printers"
+    }
+]

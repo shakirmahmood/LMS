@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Registration</title>
+</head>
+<body>
+    <form action="" method="post">
+        <p>{{ newbook.csrf_token }}</p>
+        <p>{{ warning }}</p>
+        <P>{{ newbook.title.label}} {{ newbook.title() }}</P>
+        <P>{{ newbook.year.label}} {{ newbook.year() }}</P>
+        <P>{{ newbook.pages.label}} {{ newbook.pages() }}</P>
+        <P>{{ newbook.author.label}} {{ newbook.author() }}</P>
+        <P>{{ newbook.publisher.label}} {{ newbook.publisher() }}</P>
+        <P>{{ newbook.submit.label}} {{newbook.submit() }}</P>
+    </form>
+</body>
+</html>
